@@ -6,8 +6,9 @@ This repository contains the current Dream Map v0.1 prototype source. The hosted
 
 ## Current experience
 
-- Pan and zoom a world map; explore dreams within the visible area or a selected country.
-- Filter dreams by status and open dream details.
+- Pan and zoom a world map; explore dreams within the visible area or a selected country. Map markers and cards open the same dream.
+- Search by dream, person, or place and filter by status; the map and list share those filters.
+- Browse a compact list beside the map on desktop. Dream details open on demand; on phones they appear in a bottom sheet.
 - Create a dream with a required title and Dreamer Location, optional description, hashtag, and Dream Destination.
 - Track `dreamed`, `in-progress`, and `achieved` status; only the dreamer can change status.
 - Toggle one vote per user per dream and save an offer to help.
@@ -54,4 +55,4 @@ A clean clone defaults to the portable execution profile. Use pnpm directly on m
 | `build/`, `scripts/` | Worker build and local runtime helpers |
 | `.openai/hosting.json` | Existing Sites project and logical database binding |
 
-The app source is preserved from the current hosted prototype. This export adds project documentation and excludes generated TypeScript build cache. Deployment and UI verification have not been rerun for this source export. See `docs/starter-notes.md` for the starter's original runtime notes.
+The first UI refresh is documented in `docs/ui-refresh-plan.md`; `docs/product-review-2026-09-30.md` records the product findings that informed it. Publishing this source repository does not deploy the hosted prototype. See `docs/starter-notes.md` for the starter's original runtime notes.
